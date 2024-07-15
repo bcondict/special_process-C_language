@@ -1,7 +1,9 @@
 # C Basics and Git basics
 
 Languages - Idiomas
+
 [English](#English)
+
 [Español](#Español)
 
 ## English:

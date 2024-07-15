@@ -41,9 +41,9 @@ Languages - Idiomas
    2. create a comment block to document the `main` function
    3. main function prototype: `int main(void)`
    4. Create variables of the following types and assign them a value of your choice:
-      - `int`
-      - `char`
-      - `double`
+      - `int`: Can only contain numbers, that is: `1`, `2`, `3`, `4`, etc.
+      - `char`: It can only contain characters, which are represented with single quotes `''`, that is: `'c'`, `'d'`, `'j'`, etc. But you can also use its value in the [ascii table](https://www.asciitable.com/) that is: `99`, `100`, `106` following the same letters
+      - `double`: Can contain decimal numbers: `1.2`, `0.5`, etc.
    5. Use the `printf` function to print the values ​​stored within the variables created previously in the console
    6. Use the `sizeof` function to find out the memory size of the previously used data types (`int`, `char`, `double`)
    7. At the beginning of the file import the following libraries:
@@ -112,9 +112,9 @@ Languages - Idiomas
    2. crear un bloque de comentarios para documentar la función `main`
    3. prototipo de la función main: `int main(void)`
    4. Crea variables de los siguientes tipos y asígnales un valor a tu elección:
-      - `int`
-      - `char`
-      - `double`
+      - `int`: Sólo puede contener números, es decir: `1`, `2`, `3`, `4`, etc.
+      - `char`: Sólo puede contener caracteres, que se representan con comillas sencillas `''` es decir: `'c'`, `'d'`, `'j'`, etc. Pero también puedes utilizar su valor en la [tabla ascii](https://www.asciitable.com/) es decir: `99`, `100`, `106` siguiendo las mismas letras
+      - `double`: Puede contener números decimales: `1.2`, `0.5`, etc.
    5. Utiliza la función de `printf` para imprimir en consola los valores almacenados dentro de las variables creadas anteriormente
    6. Utiliza la función `sizeof` para saber el tamaño en memoria de los tipos de datos anteriormente utilizados (`int`, `char`, `double`)
    7. Al inicio del archivo importa las siguientes librerías:

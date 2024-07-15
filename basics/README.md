@@ -1,5 +1,9 @@
 # C Basics and Git basics
 
+Languages - Idiomas
+[English](#English)
+[Español](#Español)
+
 ## English:
 
 ### Topics to consider for this project:

@@ -33,7 +33,7 @@ The structure when creating a function looks like this:
 }
 ```
 
-we replace the `{}` with the values ​​then we have the structure of our function
+We replace the `{}` with the values ​​then we have the structure of our function
 
 #### Pointers
 
@@ -54,7 +54,7 @@ int main(void)
   /* I print the value of the int variable in the console */
   printf("value of my int variable: %d\n", intVariable);
   /* I print the value of the pointer type variable in the console */
-  printf("value of my pointer variable: %p\n", intVariablePointer);
+  printf("value of my pointer variable: %ls\n", intVariablePointer);
   /* I print the dereferenced value of the int type variable in the console */
   printf("value of my int variable from my pointer variable: %d", *intVarriablePointer);
 
@@ -64,9 +64,9 @@ int main(void)
   /* I print the value of the int variable in the console */
   printf("value of my int variable: %d\n", intVariable);
   /* I print the value of the pointer type variable in the console */
-  printf("value of my pointer variable: %p\n", intVariablePointer);
+  printf("value of my pointer variable: %ls\n", intVariablePointer);
   /* I print the dereferenced value of the int type variable in the console */
-  printf("value of my int variable from my pointer variable: %d", *intVarriablePointer);
+  printf("value of my int variable from my pointer variable: %d\n", *intVariablePointer);
 }
 ```
 
@@ -143,17 +143,22 @@ int *arrayInt = {1, 2, 3, 4, 5};
 
 ### Tasks
 
-0. Create a function called `print_int_array` that receives as parameters a variable called `arrayToPrint` of type `int *` and returns a type `int`.
-   1. Create a loop of any type (`while`, `for`) that is responsible for traversing the array.
-   2. We are going to access the positions within the arrangement. Use an iterator variable that is responsible for viewing the content within the positions of the array.
-   3. Use the `printf` function to print unstructured integers from the array in the console at the position of the iterator variable we created followed by a line break.
-   4. Return the iteration variable
-1. Create a main function that is responsible for calling the function that we previously created.
+0. Create directory called `pointers_advances-types`
+
+This folder must have a `README.md` file ` with the description of the topics to be discussed, and a description of the project.
+
+1. Create a file called `0-print_int_array.c` and add the following code:
+   1. Create a function called `print_int_array` that receives as parameters a variable called `arrayToPrint` of type `int *` and returns a type `int`.
+   2. Create a loop of any type (`while`, `for`) that is responsible for traversing the array.
+   3. We are going to access the positions within the arrangement. Use an iterator variable that is responsible for viewing the content within the positions of the array.
+   4. Use the `printf` function to print unstructured integers from the array in the console at the position of the iterator variable we created followed by a line break.
+   5. Return the iteration variable
+2. Create a main function that is responsible for calling the function that we previously created.
    1. Create an array of type `int` of length 5, whose values ​​can be whatever they consider, but
    2. Call the `print_int_array` function passing it the array we created previously
    3. Return the number 0 in the main function.
-2. Create a file called `main.h` and add the [prototype](https://www.geeksforgeeks.org/function-prototype-in-c/) of the `print_int_array` function inside
-3. Call said file `main.h` in the main function.
+3. Create a file called `main.h` and add the [prototype](https://www.geeksforgeeks.org/function-prototype-in-c/) of the `print_int_array` function inside
+4. Call said file `main.h` in the main function.
 
 ## Español
 
